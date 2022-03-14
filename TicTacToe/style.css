@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* .row1 div,
+.row2 div,
+.row3 div {
+  display: inline-flex;
+} */
+body {
+  background-color: aliceblue;
+  /* overflow: hidden; */
+}
+.sec1 {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 30rem;
+
+  /* margin: 0.625rem auto; */
+  box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.81);
+  background-color: rgb(24 53 71 / 0.7);
+}
+.sec1 .tiles {
+  font-family: "Permanent Marker", cursive;
+  width: 10rem;
+  height: 10rem;
+  border: 5px solid aliceblue;
+  cursor: pointer;
+  line-height: 10rem;
+  font-size: 3.75rem;
+  text-align: center;
+  color: aliceblue;
+}
+.sec1 .zero,
+.sec1 .three,
+.sec1 .six,
+.sec1 .two,
+.sec1 .five,
+.sec1 .eight {
+  border-left: none;
+  border-right: none;
+}
+.sec1 .zero,
+.sec1 .one,
+.sec1 .two,
+.sec1 .three,
+.sec1 .four,
+.sec1 .five,
+.sec1 .six,
+.sec1 .seven,
+.sec1 .eight {
+  border-top: none;
+}
+
+.sec1 .six,
+.sec1 .seven,
+.sec1 .eight {
+  border-bottom: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8.5rem 0;
+}
